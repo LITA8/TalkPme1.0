@@ -1,0 +1,26 @@
+.helpListItem{
+    display: flex;
+    margin-top: 10px;
+}
+
+.helpListProfilePicture{
+    flex: 0;
+    margin-right: 5px;
+}
+.helpListMessages{
+    flex: 7;
+    overflow-y: scroll;
+    height: 5vh;
+    margin-right: 10px;
+    max-height: 100px;
+}
+
+.dateSend{
+    flex: 1;
+}
+
+.helpListOptionsIcons{
+    flex: 2;
+    margin-left: 10px;
+    cursor: pointer;
+}

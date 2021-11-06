@@ -1,0 +1,10 @@
+.feed{
+    flex: 6;
+    margin-top: calc(100px - 55px);
+}
+
+@media all and (min-width:225px) and (max-width:1028px) {   
+    .feed{
+        width: 100%;
+    }
+}

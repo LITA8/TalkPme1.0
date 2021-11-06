@@ -1,0 +1,72 @@
+.helpWrapper{
+    background-color: whitesmoke;
+    margin-top: calc(100px - 15px);
+}
+
+.helpInputcontainer{
+    display: flex;
+}
+
+.helpInput{
+    height: 40px;
+    border: none;
+    width: 78%;
+    background-color: lightgray;
+    margin-right: 2%;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.helpInput:focus{
+    outline: none;
+}
+
+.helpButton{
+    border: none;
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.helpList{
+    justify-content: space-between;
+    align-items: center;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.helpListItems{
+    margin-top: 10px;
+}
+
+.helpListItem{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.helpListTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.helpListProfilePicture{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: lightgreen;
+}
+
+.helpListMessages{
+    font-weight: 400;
+}
+
+.helpListOptionsIcons{
+    color: white;
+    font-weight: bold;
+}

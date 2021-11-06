@@ -1,0 +1,46 @@
+.myContactsWrapper{
+    margin-top: calc(100px - 20px);
+}
+.mycontactsProfile{
+    height: 20vh;
+    width: 10%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.mycontactsProfile:hover{
+    background-color: black;
+    opacity: 0.5;
+    transition: 1s;
+    color: white;
+}
+
+.myContactsProfilePicture{
+    height: 100%;
+    width: 100%;
+}
+
+
+.myContactsOptionsIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.myContactsIcon{
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.myContactsIconColorVideo{
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+.registerForm{
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fText{
+    font-weight: bold;
+    font-family: 'popins',sans-serif;
+}
+
+.appPhoto{
+    height: 100%;
+    width: 90%;
+}

@@ -1,0 +1,9 @@
+.createRoomsButton{
+    margin-top: 50%;
+    margin-left: 50%;
+    border: none;
+    width: 30%;
+    height: 50px;
+    font-weight: 500;
+    background-color: lightgray;
+}

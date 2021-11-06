@@ -1,0 +1,73 @@
+.loginForm{
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.formDescription{
+    text-align: center;
+}
+
+.appName{
+    font-size: 100px;
+}
+.appPhoto{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.appNameDescription{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formContainer{
+    background-color: rgb(172, 172, 172);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25%;
+}
+
+
+.FormInput{
+    border-radius: 50px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+.fText{
+    font-weight: bold;
+    font-family: 'popins',sans-serif;
+}
+.connexionButton{
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+@media all and (min-width:225px) and (max-width:1028px) {
+    .appPhoto{
+        position: fixed;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .formContainer{
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .insideFormDescription{
+        display: none;
+    }
+}

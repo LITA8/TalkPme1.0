@@ -1,0 +1,89 @@
+.sizeIconLogo{
+    font-size: 40px;
+}
+
+.logoName{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+.toarProfileContainer{
+   justify-content: center;
+   align-items: center;
+   margin-top: -22px;
+}
+
+.profilePicture {
+    height: 45px;
+    width: 45px;
+    border-radius: 90px;
+    background-color: turquoise;
+    margin-top: -10px;
+}
+
+.profilePicture{
+    height: 100%;
+    width: 100%;
+}
+
+.profileUnsername{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.topbarSizeIcon{
+    font-size: 30px;
+}
+
+a:link{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.topbarIconName{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.notificationCount{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    margin-left: -12px;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+@media all and (min-width:230px) and (max-width:1028px){
+    .logoName{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .topbarIconName,.profileUnsername{
+        display: none;
+    }
+
+    .logoName{
+        display: none;
+    }
+
+    .profileUnsername{
+        display: none;
+    }
+}
+

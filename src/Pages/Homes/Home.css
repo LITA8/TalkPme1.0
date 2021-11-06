@@ -1,0 +1,22 @@
+.homeContainer{
+    display: flex;
+}
+
+@media all and (min-width:225px) and (max-width:1028px) {
+    .homeContainer{
+        width: 100%;
+    }
+
+    .homeSidebar{
+        display: none;
+        position: absolute;
+    }
+
+    .homeFeed{
+        width: 100%;
+    }
+
+    .homeRightbar{
+        display: none;
+    }
+}
